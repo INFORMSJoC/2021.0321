@@ -46,7 +46,7 @@ prices = [2.77 1.17;
 weights = [2 / 3 1 / 3]
 
 
-## Example Bertsimas Popescu (data from Table 1 in paper)
+## Example Bertsimas Popescu (data from Table 1 in paper, originally from The Wall Street Journal, July 7, 1998, Microsoft Call options)
 
 strikes = [95 100 110 115 120]
 
@@ -54,7 +54,7 @@ prices = [12.875 8.375 1.875 0.625 0.25]
 
 weights = [1]
 
-## Strike and prices of tech stock call options 
+## Strike and prices of tech stock call options (data from https://www.nasdaq.com/market-activity)
 
 #AAPL
 
