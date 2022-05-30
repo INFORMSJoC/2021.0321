@@ -35,7 +35,7 @@ prices = [20 15.5 12 5.5 1;
 weights = [1 / 2 1 / 2]
 
 
-## Options on currencies ("Currency basket" in paper)
+## Artificial exampel ("Currency basket" in paper)
 
 strikes = [135.5 138.5;
     116 119]
