@@ -43,6 +43,18 @@ Given observable option prices and their respective strikes on various assets {1
 
 The code is written in the [Julia programming language](https://julialang.org). Please visit the website for an installation guide. 
 
+## Required packages 
+
+To run the content of "hierarchy_outer_bounds.jl" in [src](src) the following Julia packages are required: Combinatorics, JuMP, MosekTools, LinearAlgebra.
+
+To install a package simply run
+
+```julia
+pkg> add PACKAGE_NAME    # Press ']' to enter the Pkg REPL mode.
+```
+
+To run the "example_boyle_lin.jl" file the packages "MomentOpt" and "DynamicPolynomials" are required. For these to function properly some other packages must be downgraded. More information on how to do this is to be found in the file "example_boyle_lin.jl".
+
 ## Usage 
 
 To compute outer bounds of the price range of an European basket call option a given strike *K* and observable prices of European call options on the assets {1, ..., n} contained in the basket use the code in *hierarchy_outer_bounds.jl* in [src](src). 
