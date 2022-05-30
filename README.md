@@ -53,15 +53,46 @@ To install a package simply run
 pkg> add PACKAGE_NAME    # Press ']' to enter the Pkg REPL mode.
 ```
 
-To run the "example_boyle_lin.jl" file the packages "MomentOpt" and "DynamicPolynomials" are required. For these to function properly some other packages must be downgraded. More information on how to do this is to be found in the file "example_boyle_lin.jl".
+To run the "example_boyle_lin.jl" file the packages "MomentOpt" and "DynamicPolynomials" are required. For these to function properly some other packages may have to be downgraded. More information on how to do this is to be found in the file "example_boyle_lin.jl".
 
-## Usage 
+## Example
 
 To compute outer bounds of the price range of an European basket call option a given strike *K* and observable prices of European call options on the assets {1, ..., n} contained in the basket use the code in *hierarchy_outer_bounds.jl* in [src](src). 
 
-For simplicity, make sure for all assets the same number of observable options and prices are available. Define a matrix *strikes*, where row *i* contains the prices of the observable options corresponding to asset *i* in ascending order. Further, define a matrix *prices* where the entry *prices[i,j]* contains the price of the option on asset *i* with strike price given by *strikes[i,j]*. 
+Define a matrix *strikes*, where row *i* contains the prices of the observable options corresponding to asset *i* in ascending order. Further, define a matrix *prices* where the entry *prices[i,j]* contains the price of the option on asset *i* with strike price given by *strikes[i,j]*. 
 
-We do not provide a closed form solution for *B*, but depending on *M*, which we chose to set to *200 000*, setting *B ~ sqrt(M)* worked well. Let *weights* be the vector of the weights of the basket. Finally, to solve level $r$ of the hierarchy for the given data, call the function *compBounds(K, B, M, level, silent, strikes, prices, weights)*, where silent is a boolean suppressing the solver output when set to true.
+For example, open the file hierarchy_outer_bounds.jl in your IDE and set
+
+```julia
+level = 1
+
+K = 105
+
+B = 400
+
+M = 200000
+
+strikes = [90 95 100 110 120; 90 96 102 107 115]
+
+prices = [20 15.5 12 5.5 1; 20.5 15 10 6 0.75]
+
+weights = [1 / 2 1 / 2]
+```
+One can check if the given data is consistent by running
+
+```julia
+checkConsistency(strikes, prices)
+```
+
+If this returns "true" then run
+
+```julia
+compBounds(K, B, M, level, silent, strikes, prices, weights)
+```
+
+For this particular example the solution is given by: lower bound = 4.625, upper bound = 8.016.
+
+
 
 ## Results
 
