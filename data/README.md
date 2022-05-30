@@ -46,7 +46,7 @@ prices = [2.77 1.17;
 weights = [2 / 3 1 / 3]
 
 
-## Example Bertsimas Popescu (data from Table 1 in paper, originally from The Wall Street Journal, July 7, 1998, Microsoft Call options)
+## Example Bertsimas Popescu (data from The Wall Street Journal, July 7, 1998, Microsoft Call options)
 
 strikes = [95 100 110 115 120]
 
