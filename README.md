@@ -11,22 +11,7 @@ that were used in the research reported on in the [paper](https://arxiv.org/abs/
 
 ## Cite
 
-To cite this software, please cite the [paper](https://arxiv.org/abs/2111.07701) using its DOI and the software itself, using the following DOI.
-
-[![DOI](zenedo link)](zenedo link)
-
-Below is the BibTex for citing this version of the code.
-
-```
-@article{OptionsPricing,
-  author =        {Didier Henrion, Felix Kirschner, Etienne de Klerk, Milan Korda, Jean-Bernard Lasserre, Victor Magron},
-  publisher =     {INFORMS Journal on Computing},
-  title =         {{OptionsPricing} Version v1.0},
-  year =          {2022},
-  doi =           {zenedo link},
-  url =           {githup link},
-}  
-```
+The final version of this repository, with updated bibliographical information, is available at [GitHub](https://github.com/INFORMSJoC/2021.0321).
 
 ## Background 
 
