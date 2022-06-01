@@ -35,7 +35,7 @@ prices = [20 15.5 12 5.5 1;
 weights = [1 / 2 1 / 2]
 
 
-## Options on currencies ("Currency basket" in paper)
+## Artificial exampel ("Currency basket" in paper)
 
 strikes = [135.5 138.5;
     116 119]
@@ -46,7 +46,7 @@ prices = [2.77 1.17;
 weights = [2 / 3 1 / 3]
 
 
-## Example Bertsimas Popescu (data from Table 1 in paper)
+## Example Bertsimas Popescu (data from The Wall Street Journal, July 7, 1998, Microsoft Call options)
 
 strikes = [95 100 110 115 120]
 
@@ -54,7 +54,7 @@ prices = [12.875 8.375 1.875 0.625 0.25]
 
 weights = [1]
 
-## Strike and prices of tech stock call options 
+## Strike and prices of tech stock call options (data from https://www.nasdaq.com/market-activity)
 
 #AAPL
 
