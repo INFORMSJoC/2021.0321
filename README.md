@@ -6,7 +6,7 @@ This archive is distributed in association with the [INFORMS Journal on
 Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
 
 The software and data in this repository are a snapshot of the software and data
-that were used in the research reported on in [Revisiting Semidefinite Programming Approaches to Options Pricing: Complexity and Computational Perspectives](https://doi.org/10.1287/ijoc.2022.1220)(https://arxiv.org/abs/2111.07701) by Didier Henrion, Felix Kirschner, Etienne de Klerk, Milan Korda, Jean-Bernard Lasserre and Victor Magron.
+that were used in the research reported on in [Revisiting Semidefinite Programming Approaches to Options Pricing: Complexity and Computational Perspectives](https://doi.org/10.1287/ijoc.2022.1220) by Didier Henrion, Felix Kirschner, Etienne de Klerk, Milan Korda, Jean-Bernard Lasserre and Victor Magron.  See also (https://arxiv.org/abs/2111.07701).
 
 
 ## Cite
