@@ -11,9 +11,7 @@ that were used in the research reported on in [Revisiting Semidefinite Programmi
 
 ## Cite
 
-To cite this material, please cite this repository, using the following DOI.
-
-[![DOI](https://zenodo.org/badge/497938610.svg)](https://zenodo.org/badge/latestdoi/497938610)
+To cite this material, please cite this repository, using the following DOI: [https://doi.org/10.1287/ijoc.2022.1220.cd](https://doi.org/10.1287/ijoc.2022.1220.cd)
 
 Below is the BibTex for citing this version of the code.
 
@@ -23,7 +21,7 @@ Below is the BibTex for citing this version of the code.
   publisher =     {INFORMS Journal on Computing},
   title =         {{OptionsPricing} Version v1.0},
   year =          {2022},
-  doi =           {10.5281/zenodo.6602361},
+  doi =           {10.1287/ijoc.2022.1220.cd},
   url =           {https://github.com/INFORMSJoC/2021.0321},
 }  
 ```
